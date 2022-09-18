@@ -1,0 +1,481 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 35,
+        "name": "Login the web application",
+        "description": "",
+        "id": "to-validate-and-check-features-of-login-page-with-invalid-data;login-the-web-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029192600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Launch the application",
+            "match": {
+              "location": "Steps.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3302276800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click the login button",
+            "match": {
+              "location": "Steps.click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192535400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter the username \"kanchana@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kanchana@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.enter_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166220900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the password \"NandithaSree@1215\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NandithaSree@1215",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 778120800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Continue",
+            "match": {
+              "location": "Steps.click_on_Continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 23,
+            "name": "@invalidCredentials"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Login the web application",
+        "description": "",
+        "id": "to-validate-and-check-features-of-login-page-with-invalid-data;login-the-web-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 516813100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Launch the application",
+            "match": {
+              "location": "Steps.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1375404900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click the login button",
+            "match": {
+              "location": "Steps.click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137411900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter the username \"kanchanagorle@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kanchanagorle@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.enter_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155767400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the password \"admin@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@1234",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.enter_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803214500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Continue",
+            "match": {
+              "location": "Steps.click_on_Continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 23,
+            "name": "@invalidCredentials"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Login the web application",
+        "description": "",
+        "id": "to-validate-and-check-features-of-login-page-with-invalid-data;login-the-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 480814200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "in login page",
+            "match": {
+              "location": "Steps.in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1292511400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "click login button",
+            "match": {
+              "location": "Steps.click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138090600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Enter username as \"kanchanagit@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kanchanagit@gmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.enter_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139950500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Enter password as \"Kanchana@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kanchana@1234",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1613261700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Continue",
+            "match": {
+              "location": "Steps.continue_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@validCredentials"
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Navigate To Dashboard",
+        "description": "",
+        "id": "to-validate-and-check-features-of-login-page-with-invalid-data;navigate-to-dashboard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1048592400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "home page",
+            "match": {
+              "location": "Steps.home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 640343900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "New project",
+            "match": {
+              "location": "Steps.new_project()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5180193700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Create New Project",
+            "match": {
+              "location": "Steps.create_New_project()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 49,
+            "name": "@Dashboard"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Creating new task under the new project",
+        "description": "",
+        "id": "to-validate-and-check-features-of-login-page-with-invalid-data;creating-new-task-under-the-new-project",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1136248000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Project selected",
+            "match": {
+              "location": "Steps.select_project()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3347826200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Start creating task",
+            "match": {
+              "location": "Steps.start_creating_task()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1028722000,
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\tdid not expect [Application error: a client-side exception has occurred (see the browser console for more information).] but found [Application error: a client-side exception has occurred (see the browser console for more information).]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat kyro.stepdefinition.Steps.verify_task_created(Steps.java:152)\r\n\tat ✽.And Verify task created(featurefile/login_test.feature:59)\r\n",
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "Verify task created",
+            "match": {
+              "location": "Steps.verify_task_created()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@CreateTask"
+          }
+        ]
+      }
+    ],
+    "name": "To validate and check features of Login Page with invalid data",
+    "description": "",
+    "id": "to-validate-and-check-features-of-login-page-with-invalid-data",
+    "keyword": "Feature",
+    "uri": "featurefile/login_test.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]
